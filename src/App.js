@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Header />
-      <section className="features">
+      <section className="features container">
         <FeatureCard image={icon1} name="Declarative" description="React makes it paintless to create interactive UIs."/>
         <FeatureCard image={icon2} name="Components" description="Build encapsulated components that manage their state."/>
         <FeatureCard image={icon3} name="Single-Way" description="A set of immutable values are passed to the component's."/>

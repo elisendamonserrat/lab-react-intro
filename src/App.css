@@ -5,12 +5,19 @@
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 4rem;
   margin: 0;
 }
 
+h2 {
+  font-size: 1.75rem;
+  color: RGB(51, 56, 71);
+  margin: 0;
+  margin-bottom: 0.20em;
+}
+
 p {
-  font-size: 0.80em;
+  font-size: 1.15rem;
   margin: 0;
 }
 
@@ -20,9 +27,8 @@ p {
   background-image: url(./images/react-logo.svg) ;
   background-repeat: repeat-y;
   background-position: right;
-
-
-  min-height: 80vh;
+  min-height: 70vh;
+  padding: 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,6 +40,7 @@ p {
 .App__header__navBar {
   display: flex;
   justify-content: space-between;
+  padding: 0 0 4em;
 }
 
 .App__header__content {
@@ -48,7 +55,31 @@ p {
   font-weight: bold;
   border-radius: 10px;
   color: #333847;
+  font-weight: 600;
 }
+
+.features {
+  padding: 5em 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.feature__card {
+  width: 20%;
+  margin: 0 1em;
+}
+
+.feature__card > img {
+  width: 60%;
+  margin-bottom: .75em;
+}
+
+.feature__card > p {
+  color: RGB(158, 158, 158);
+  font-weight: 600;
+  font-size: 1rem;
+}
+
 
 
 
